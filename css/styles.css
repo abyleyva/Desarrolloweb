@@ -29,3 +29,13 @@ h1{
     font-size: 40px;
     letter-spacing: -0.2px;
 }
+.hero {
+    height: 300px;
+}
+
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width: 500px;
+}
