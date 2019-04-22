@@ -8,12 +8,15 @@ declaraciones
 propiedades
 
 valores
-
+gris oscuro= #1d252c
+gris claro= #626262
+backgroudn gris= #1b2127
+celeste = #026fff
 */
 
 body 
 {
-    font-family: 'Source Sans Pro',sans-serif;
+     font-family: 'Source Sans Pro',sans-serif;
 }
 h1,
 h2,
@@ -28,9 +31,29 @@ h1{
     line-height: 1.5;
     font-size: 40px;
     letter-spacing: -0.2px;
+    color: white;
+
+}
+h1 strong {
+    color:#026fff
+}
+header {
+    background-color: #1b2127;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
 }
 .hero {
     height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-color: #1b2127;
+    background-size:500px 300px ;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
 }
 
 .project-details{
