@@ -56,8 +56,16 @@ header a {
     
 }
 
+.project {
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+} 
+
 .project-details{
     width: 500px;
+    border-top: 50px,solid,red;
 }
 .project-imageContainer{
     width: 500px;
