@@ -32,6 +32,7 @@ h1{
     font-size: 40px;
     letter-spacing: -0.2px;
     color: white;
+    margin: 100px 150px 70px 30px;
 
 }
 h1 strong {
@@ -61,6 +62,7 @@ header a {
     border-color: gray;
     border-width: 1px;
     border-style: solid;
+    margin-bottom: 15px;
 } 
 
 .project-details{
