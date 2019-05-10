@@ -1,84 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <title>AbyLeyva Webpage</title>
-        <link rel="icon" type="image/png" href="images/favicon.png">
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <header class="header">          
-            <figure class="logo">
-                <img src="images/logo.png" alt="Logotipo" />
-            </figure>
-            <nav class="menu">
-                <ol>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#worktogether">Work Together</a></li>
-                </ol>
-            </nav>
-        </header>
-        <section class="hero">
-            <h1>Hola Soy <strong> Aby Leyva</strong> <br> y estoy <strong>aprendiento</strong> el<br><strong>desarrollo web</strong> desde
-                cero</h1>
-                <!-- <img src="images/hero.jpg" width="500" height="300" alt="imagen Principal del proyecto" /> -->
-        </section>
-        <section id="portafolio" class="portfolio">
-            <h2>Portafolio (Proyectos Destacados)</h2>
-            <article class="project">
-                <div class="project-details">        
-                    <h3 class="project-tittle">Platzi Video</h3>
-                    <h6 class="project-course">React Native / React</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 03/04/2019</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong> www.abyleyva.com/home</small></p>
-                    <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti corporis necessitatibus natus laudantium et? Voluptas, mollitia nihil. Eveniet, officiis atque. Sint aliquam aperiam nemo tempore voluptatibus explicabo ratione eaque hic!. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus voluptatum eligendi placeat odio est quo neque sit quisquam ut? Pariatur voluptates alias sunt corporis? Atque officia illo non aliquid amet. </p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="proyect-image" src="images/platzi-video-react-native.png" alt="Proyecto del curso React Native" width="500">
-                </figure>
-            </article>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-tittle">Platzi Video 2</h3>
-                    <h6 class="project-course">React Native 2 / React</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 03/04/2019</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong> www.abyleyva.com/home</small></p>
-                    <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti corporis
-                        necessitatibus natus laudantium et? Voluptas, mollitia nihil. Eveniet, officiis atque. Sint aliquam aperiam
-                        nemo tempore voluptatibus explicabo ratione eaque hic!. Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Ducimus voluptatum eligendi placeat odio est quo neque sit quisquam ut? Pariatur voluptates alias sunt
-                        corporis? Atque officia illo non aliquid amet. </p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="proyect-image" src="images/platzi-video-react-native.png" alt="Proyecto del curso React Native"
-                        width="500">
-                </figure>
-            </article>
-        </section>
-        <section id="experiences">
-            <h2>Más sobre mi Experiencia</h2>
-            <article class="experience">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="images/platzi-conf.jpg" height="500" />
-                </figure>
-                <h3 class="experience-tittle">
-                    Platzi Conf Mexico 2019
-                </h3>
-                <p class="experience-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, molestiae. Rem odio sed corrupti omnis odit eius consequuntur laudantium voluptatum, repudiandae provident, voluptas dignissimos laborum amet necessitatibus voluptates, animi ea!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet numquam reprehenderit a libero rem delectus quo, odit, ipsum dolores corrupti illum labore temporibus ea. Corrupti amet omnis facilis blanditiis obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat incidunt consequatur dolor a vero sit quas vitae quasi veniam, reiciendis necessitatibus recusandae, voluptatibus nostrum ex distinctio sapiente totam neque. Ea!</p>
-                <a class="experience-url" href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank">Ver Video</a>
-            </article> 
-        </section>
-        <section id="contacto" class="contact">
-            <form action="/suscribe" class="form-email">
-                <h3>Ingresa tu email</h3>
-                <input type="email"  placeholder="correo@dominio.com" id="email">
-                <button>Enviar</button>
-            </form>
-        </section>
-        <footer class="footer">footer</footer>
 
-        
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <title>AbyLeyva Webpage</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <figure class="logo">
+            <img src="images/logo.png" height="50" alt="Logotipo" />
+        </figure>
+        <nav class="menu">
+            <ol>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#worktogether">Work Together</a></li>
+            </ol>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Hola Soy <strong> Aby Leyva</strong> <br> y estoy <strong>aprendiento</strong> el<br><strong>desarrollo
+                web</strong> desde
+            cero</h1>
+        <!-- <img src="images/hero.jpg" width="500" height="300" alt="imagen Principal del proyecto" /> -->
+    </section>
+    <section id="portafolio" class="portfolio">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+        <article class="project">
+            <div class="project-details">
+                <h3 class="project-tittle">Platzi Video</h3>
+                <h6 class="project-course">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 03/04/2019</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.abyleyva.com/home</small></p>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+                    corporis necessitatibus natus laudantium et? Voluptas, mollitia nihil. Eveniet, officiis atque. Sint
+                    aliquam aperiam nemo tempore voluptatibus explicabo ratione eaque hic!. Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Ducimus voluptatum eligendi placeat odio est quo neque sit quisquam
+                    ut? Pariatur voluptates alias sunt corporis? Atque officia illo non aliquid amet. </p>
+            </div>
+            <figure class="project-imageContainer">
+                <img class="proyect-image" src="images/platzi-video-react-native.png"
+                    alt="Proyecto del curso React Native" width="500">
+            </figure>
+        </article>
+        <article class="project">
+            <div class="project-details">
+                <h3 class="project-tittle">Platzi Video 2</h3>
+                <h6 class="project-course">React Native 2 / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 03/04/2019</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.abyleyva.com/home</small></p>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+                    corporis
+                    necessitatibus natus laudantium et? Voluptas, mollitia nihil. Eveniet, officiis atque. Sint aliquam
+                    aperiam
+                    nemo tempore voluptatibus explicabo ratione eaque hic!. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing
+                    elit. Ducimus voluptatum eligendi placeat odio est quo neque sit quisquam ut? Pariatur voluptates
+                    alias sunt
+                    corporis? Atque officia illo non aliquid amet. </p>
+            </div>
+            <figure class="project-imageContainer">
+                <img class="proyect-image" src="images/platzi-video-react-native.png"
+                    alt="Proyecto del curso React Native" width="500">
+            </figure>
+        </article>
+    </section>
+    <section id="experiences">
+        <h2>Más sobre mi Experiencia</h2>
+        <article class="experience">
+            <figure class="experience-imageContainer">
+                <img class="experience-image" src="images/platzi-conf.jpg" height="500" />
+            </figure>
+            <h3 class="experience-tittle">
+                Platzi Conf Mexico 2019
+            </h3>
+            <p class="experience-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi,
+                molestiae. Rem odio sed corrupti omnis odit eius consequuntur laudantium voluptatum, repudiandae
+                provident, voluptas dignissimos laborum amet necessitatibus voluptates, animi ea!. Lorem ipsum dolor sit
+                amet consectetur, adipisicing elit. Eveniet numquam reprehenderit a libero rem delectus quo, odit, ipsum
+                dolores corrupti illum labore temporibus ea. Corrupti amet omnis facilis blanditiis obcaecati. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Placeat incidunt consequatur dolor a vero sit quas
+                vitae quasi veniam, reiciendis necessitatibus recusandae, voluptatibus nostrum ex distinctio sapiente
+                totam neque. Ea!</p>
+            <a class="experience-url" href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank">Ver Video</a>
+        </article>
+    </section>
+    <section id="contacto" class="contact">
+        <form action="/suscribe" class="form-email">
+            <h3>Ingresa tu email</h3>
+            <input type="email" placeholder="correo@dominio.com" id="email">
+            <button>Enviar</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div>
+            <p>Curso de Desarrollo WEB - 2019 <img src="images/platzi.png" width="80" alt="Platzi logo"></p>
+        </div>
+        <div>
+            <p>
+                Designed with <\3 <a href="http://http://www.abyleyva.com/">AbyLeyva</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
 </html>
