@@ -8,10 +8,114 @@ declaraciones
 propiedades
 
 valores
-
+gris oscuro= #1d252c
+gris claro= #626262
+backgroudn gris= #1b2127
+celeste = #026fff
 */
 
-header 
+body 
 {
-    background: red;
+     font-family: 'Source Sans Pro',sans-serif;
+     border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5
+{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+h1{
+    line-height: 1.5;
+    font-size: 40px;
+    letter-spacing: -0.2px;
+    color: white;
+    margin: 100px 150px 70px 30px;
+
+}
+h1 strong {
+    color:#026fff
+}
+header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+}
+ol,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+.menu {
+   height: inherit; 
+}
+.header ol {
+    display: flex;
+    height: inherit;
+}
+.header ol li {
+    height: inherit;
+}
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+.hero {
+    height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-color: #1b2127;
+    background-size:500px 300px ;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
+}
+
+.portfolio{
+    background: #fafafa;
+}
+.project {
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+} 
+
+.project-details{
+    width: 500px;
+    border-top: 50px,solid,red;
+}
+.project-imageContainer{
+    width: 500px;
+}
+.flexbox {
+ display: flex;
+ flex-wrap: wrap;
+ /* flex-direction: column; */
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid red;
+    flex-shrink: 0;
 }
